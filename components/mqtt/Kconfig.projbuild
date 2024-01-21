@@ -1,0 +1,9 @@
+menu "MQTT"
+    config BROKER_URL
+        string "Url del broker"
+        default "mqtt://broker.emqx.io"
+
+        
+        
+
+endmenu

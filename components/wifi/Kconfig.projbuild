@@ -1,0 +1,17 @@
+menu "Comunicación Wifi"
+
+    menu "Estación Wifi"
+        config STA_SSID
+            string "SSID"
+            default "Asterisk"
+            help
+                Nombre de la red del punto de acceso externo
+    
+        config STA_PASS
+            string "Password" 
+            default "Ytjda3toGe"
+            help 
+                Contraseña del punto de acceso externo
+    endmenu
+
+endmenu
